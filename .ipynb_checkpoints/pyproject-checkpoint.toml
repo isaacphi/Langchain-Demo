@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langchain-test"
+version = "0.1.0"
+description = ""
+authors = ["Phil <phil@pheedloop.com>"]
+readme = "README.md"
+packages = [{include = "langchain_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.6"
+jupyterlab = "^4.1.1"
+langchain-openai = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
