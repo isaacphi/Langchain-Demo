@@ -10,13 +10,15 @@ packages = [{include = "langchain_test"}]
 python = "^3.10"
 langchain = "^0.1.6"
 jupyterlab = "^4.1.1"
-langchain-openai = "^0.0.5"
 python-dotenv = "^1.0.1"
 beautifulsoup4 = "^4.12.3"
 faiss-cpu = "^1.7.4"
 langchainhub = "^0.1.14"
 langserve = {extras = ["all"], version = "^0.0.41"}
-
+docarray = "0.32"
+langchain-openai = "^0.0.6"
+tiktoken = "^0.6.0"
+pydantic = "~1"
 
 [build-system]
 requires = ["poetry-core"]
